@@ -40,4 +40,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub pkg-jaro0149 Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/pkg-jaro0149/plantuml-doc</url>
+        </repository>
+    </distributionManagement>
 </project>
